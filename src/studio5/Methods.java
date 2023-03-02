@@ -110,8 +110,11 @@ public class Methods {
 	 * @return and array of size that's filled with value
 	 */
 	public static int[] filledArray(int length, int value) {
-		int[] values = null; // FIXME: Create an array of the appropriate size
+		int[] values = new int [length]; // FIXME: Create an array of the appropriate size
 		// TODO: Finish this method
+		for (int i=0; i<length;i++) {
+			values= values[i]+ values [i];
+		}
 
 		
 
